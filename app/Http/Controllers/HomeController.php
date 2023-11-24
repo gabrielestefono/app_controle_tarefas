@@ -24,5 +24,7 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+        // Só registrando que fiz alguma coisa no dia de hoje!
+            // Email implementado, não pode comentar o .env porque é burrice!
     }
 }
