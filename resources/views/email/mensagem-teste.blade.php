@@ -1,7 +1,7 @@
 @component('mail::message')
-# Introdução
+# Criando meu primeiro disparo de e-mail.
 
-O corpo da mensagem
+Oi, mozinho. Saiba que te amo muito <3 <br>
 
 @component('mail::button', ['url' => ''])
 O texto do botão

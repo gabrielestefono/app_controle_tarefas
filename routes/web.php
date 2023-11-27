@@ -25,6 +25,6 @@ Route::resource('tarefa', TarefaController::class);
 
 Route::get('/mensagem-teste', function () {
     // return new MensagemTesteMail();
-    Mail::to(['gabrielestefono@hotmail.com', 'eversonmaci@hotmail.com'])->send(new MensagemTesteMail());
+    Mail::to(['ribeirogiseli07@gmail.com'])->send(new MensagemTesteMail());
     return 'Email enviado com sucesso!';
 });
