@@ -1,7 +1,11 @@
 @component('mail::message')
 # Criando meu primeiro disparo de e-mail.
 
-Oi, mozinho. Saiba que te amo muito <3 <br>
+Teste de email com Laravel.
+
+@component('mail::button', ['url' => ''])
+O texto do botão
+@endcomponent
 
 @component('mail::button', ['url' => ''])
 O texto do botão
